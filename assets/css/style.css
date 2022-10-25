@@ -17,12 +17,20 @@
 form {
   border: 2px solid rgb(211, 210, 210);
   border-radius: 25px;
-  margin-right: 130px;
+  width: 30%;
+  margin-right: 25px;
+}
+
+form,
+i {
+  margin-left: 9px;
 }
 
 input {
-  margin-top: 10px;
+  margin-top: 13px;
   width: 290px;
+  border: none;
+  outline: none;
 }
 
 .header ul {
@@ -59,32 +67,56 @@ input {
 }
 
 .title {
-  font-size: 60px;
+  font-size: 58px;
   font-family: "Mukta", sans-serif;
   margin-top: 35px;
 }
 
 .title span {
-  color: salmon;
+  color: rgb(248, 98, 81);
 }
 
 .subtitle {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 30px;
+  font-size: 14px;
+  margin-top: 20px;
   color: rgb(107, 106, 106);
 }
 
 .nav-middle ul {
   margin-top: 40px;
   display: flex;
+  gap: 8px;
 }
 
 .nav-middle ul .button {
+  padding-top: 14px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
   flex: auto;
   text-align: center;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.nav-middle ul .button:hover {
+  background-color: black;
+  color: white;
+  padding-top: 14px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  flex: auto;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .img-wrapper {
