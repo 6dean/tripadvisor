@@ -3,6 +3,10 @@
   margin: auto;
 }
 
+a {
+  color: inherit;
+}
+
 .header {
   margin-top: 10px;
   display: flex;
@@ -67,9 +71,9 @@ input {
 }
 
 .title {
-  font-size: 58px;
+  font-size: 55px;
   font-family: "Mukta", sans-serif;
-  margin-top: 35px;
+  margin-top: 40px;
 }
 
 .title span {
@@ -119,8 +123,34 @@ input {
   margin-bottom: 15px;
 }
 
+.wrapper {
+  display: flex;
+  gap: 5px;
+}
+
 .img-wrapper {
   display: flex;
+  flex-direction: row;
+  height: 250px;
+}
+
+.block1 {
+  width: 655px;
+  height: 430px;
+  object-fit: cover;
+}
+
+.img-drapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.block2,
+.block3 {
+  width: 460px;
+  height: 213px;
+  object-fit: cover;
 }
 
 .category-info {
@@ -136,5 +166,16 @@ input {
 .immanquables {
   margin-top: 60px;
   font-size: 25px;
-  font-family: "Mukta", sansx-serif;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-weight: 800;
+}
+
+.first-meet {
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
+
+.first-title {
+  margin-top: 20px;
+  font-size: 25px;
 }
