@@ -88,6 +88,9 @@ input {
   color: rgb(107, 106, 106);
 }
 
+.nav-middle {
+}
+
 .nav-middle ul {
   margin-top: 40px;
   display: flex;
@@ -240,8 +243,8 @@ input {
 
 .congrats {
   position: absolute;
-  top: 5%;
-  right: 80%;
+  width: 20px;
+  top: 20;
 }
 
 .carousel li {
@@ -288,7 +291,7 @@ footer .name {
   font-family: "Laato", sans-serif;
   font-size: x-large;
   font-weight: bold;
-  color: rgb(51, 115, 30);
+  color: rgb(70, 129, 51);
 }
 
 footer .bootcamp {
