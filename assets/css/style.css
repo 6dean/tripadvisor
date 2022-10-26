@@ -88,10 +88,10 @@ input {
   color: rgb(107, 106, 106);
 }
 
-/* .nav-middle {
-  position: sticky;
+menu {
+  position: relative;
   top: 20;
-} */
+}
 
 .nav-middle ul {
   margin-top: 40px;
@@ -245,8 +245,11 @@ input {
 
 .congrats {
   position: absolute;
-  width: 20px;
-  top: 20;
+  width: 30px;
+  max-height: 34px;
+  border-radius: 5px;
+  top: 155px;
+  left: 10px;
 }
 
 .carousel li {
@@ -293,7 +296,7 @@ footer .name {
   font-family: "Laato", sans-serif;
   font-size: x-large;
   font-weight: bold;
-  color: rgb(70, 129, 51);
+  color: rgb(49, 151, 101);
 }
 
 footer .bootcamp {
