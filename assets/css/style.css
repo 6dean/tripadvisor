@@ -88,8 +88,10 @@ input {
   color: rgb(107, 106, 106);
 }
 
-.nav-middle {
-}
+/* .nav-middle {
+  position: sticky;
+  top: 20;
+} */
 
 .nav-middle ul {
   margin-top: 40px;
