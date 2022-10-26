@@ -87,19 +87,22 @@ input {
   margin-top: 20px;
   color: rgb(107, 106, 106);
 }
-
-menu {
-  position: relative;
+/*--------------- HEADER QUI SUIT ---------------*/
+/* menu {
+  position: fixed;
+  width: 1120px;
   top: 20;
-}
+} */
 
-.nav-middle ul {
+.nav-middle {
   margin-top: 40px;
   display: flex;
+  flex-direction: row;
   gap: 8px;
 }
 
-.nav-middle ul .button {
+.nav-middle .button {
+  background-color: white;
   padding-top: 14px;
   padding-bottom: 16px;
   display: flex;
@@ -113,7 +116,8 @@ menu {
   margin-bottom: 30px;
 }
 
-.nav-middle ul .button:hover {
+.nav-middle .button:hover {
+  background-color: black;
   cursor: pointer;
   background-color: black;
   color: white;
@@ -213,7 +217,7 @@ menu {
   margin: 0;
   padding: 0;
   width: 820px;
-  height: 250px;
+  height: 260px;
   background-color: white;
   overflow-x: scroll;
   margin-bottom: 55px;
@@ -246,7 +250,7 @@ menu {
 .congrats {
   position: absolute;
   width: 30px;
-  max-height: 34px;
+  max-height: 37px;
   border-radius: 5px;
   top: 155px;
   left: 10px;
@@ -280,6 +284,14 @@ menu {
   margin-top: 8px;
   font-weight: 600;
   font-size: 16px;
+}
+
+.text-describe {
+  margin-top: 5px;
+  font-family: Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(45, 45, 45);
 }
 
 footer {
