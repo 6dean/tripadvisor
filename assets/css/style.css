@@ -99,6 +99,8 @@ input {
   display: flex;
   flex-direction: row;
   gap: 8px;
+  position: sticky;
+  top: 150;
 }
 
 .nav-middle .button {
@@ -132,6 +134,18 @@ input {
   border: 1px solid black;
   border-radius: 10px;
   margin-bottom: 30px;
+}
+
+.replica-nav-middle {
+  background-color: white;
+  position: sticky;
+  top: 30;
+  scroll-margin-top: 500px;
+  padding-top: 1px;
+  transition: top 10.2s ease-in-out;
+  max-width: 1120px;
+  width: 100%;
+  top: 0;
 }
 
 .wrapper {
