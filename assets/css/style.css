@@ -95,7 +95,7 @@ input {
 } */
 
 .nav-middle {
-  margin-top: 40px;
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -138,11 +138,11 @@ input {
 
 .replica-nav-middle {
   background-color: white;
+  z-index: 7;
   position: sticky;
   top: 30;
   scroll-margin-top: 500px;
   padding-top: 1px;
-  transition: top 10.2s ease-in-out;
   max-width: 1120px;
   width: 100%;
   top: 0;
