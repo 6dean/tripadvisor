@@ -322,7 +322,10 @@ input {
   position: absolute;
   width: 30px;
   max-height: 37px;
-  border-radius: 5px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   top: 155px;
   left: 10px;
 }
