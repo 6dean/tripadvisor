@@ -138,7 +138,8 @@ input {
 
 .replica-nav-middle {
   background-color: white;
-  z-index: 7;
+  z-index: 70;
+  flex-wrap: wrap;
   position: sticky;
   top: 30;
   scroll-margin-top: 500px;
