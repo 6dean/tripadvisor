@@ -531,14 +531,12 @@ footer img {
     justify-content: center;
   }
 
-  .header .header-low {
+  .main-header .header .header-low div {
     /* border: solid 1px black; */
     display: flex;
-    align-items: center;
-    justify-content: space-between;
   }
-  .header-low div i {
-    border: solid 1px black;
+  .header-low div {
+    display: flex;
   }
 
   .footer {
