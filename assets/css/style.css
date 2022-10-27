@@ -296,6 +296,25 @@ input {
   font-weight: 600;
 }
 
+.circle-infos:hover {
+  background-color: black;
+  opacity: 80%;
+  cursor: pointer;
+  z-index: 8;
+  position: absolute;
+  top: 155%;
+  right: 79%;
+  background: rgb(10, 10, 10);
+  background-color: ;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+}
+
 .circle-infos i {
   color: white;
 }
