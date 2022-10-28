@@ -22,10 +22,50 @@
       src="https://kit.fontawesome.com/d47e2c3322.js"
       crossorigin="anonymous"
     ></script>
+    <!-- SCRIPT NE NECESSITANT PAS D'INSTALLER AXIOS -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- APPEL DE MON SCRIPT -->
+    <script src="assets/modal.js"></script>
+    <script src="assets/index.js"></script>
 
     <title>TripAdvisor by Dean - Le Reacteur 2022</title>
   </head>
   <body>
+    <!--MODAL FORMULAIRE-->
+    <div class="modal hidden">
+      <div class="form-container-modal">
+        <div>
+          <i class="fa-solid fa-xmark"></i>
+          <p>Formulaire de contact</p>
+
+          <form id="contactForm">
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="Prénom"
+              autocomplete="off"
+            />
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Nom"
+            />
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <textarea
+              name="description"
+              id="description"
+              rows="5"
+              cols="50"
+              placeholder="Écrivez ici votre message..."
+            ></textarea>
+            <input type="submit" value="Envoyer le formulaire" />
+          </form>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <!--ICI C'EST LE HEADER-->
 
@@ -40,10 +80,10 @@
           </a>
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
-        <form>
+        <form-search>
           <i class="fa-solid fa-magnifying-glass"></i>
-          <input type="search" id="maRecherche" name="searching" />
-        </form>
+          <input-search type="search" id="maRecherche" name="searching" />
+        </form-search>
         <ul>
           <li class="button">
             <i class="fa-regular fa-pen-to-square"></i>
