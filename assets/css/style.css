@@ -195,6 +195,7 @@ input {
 }
 
 .images {
+  max-width: fit-content;
   height: 400px;
   /* background: salmon; */
   display: grid;
@@ -526,15 +527,14 @@ footer img {
     display: flex;
   }
 
-  .header {
-    display: flex;
-    justify-content: center;
+  .nav-middle .button i {
+    display: none;
   }
 
-  .header-low {
-    /* border: solid 1px black; */
+  .header .header-low {
+    margin-top: 10px;
     display: flex;
-    align-items: center;
+    justify-content: center;
     justify-content: space-between;
   }
 
