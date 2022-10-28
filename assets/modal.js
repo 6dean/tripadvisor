@@ -10,13 +10,13 @@ tripAdivsor.addEventListener("DOMContentLoaded", () => {
   // MODAL DISPARAIT
   tripAdivsor.querySelector(".button-connect").addEventListener("click", () => {
     modal.classList.remove("hidden");
-    body.classList.add("disable");
+    // body.classList.add("disable");
   });
 
   // MODAL DISPARAIT
   tripAdivsor.querySelector(".fa-xmark").addEventListener("click", () => {
     modal.classList.add("hidden");
-    body.classList.remove("disable");
+    // body.classList.remove("disable");
   });
 
   tripAdivsor.getElementById("contactForm");
