@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -38,7 +38,7 @@
           <i class="fa-solid fa-xmark"></i>
           <p>Formulaire de contact</p>
 
-          <form id="contactForm">
+          <form id="formulaire">
             <input
               type="text"
               name="firstname"
@@ -51,8 +51,11 @@
               name="lastname"
               id="lastname"
               placeholder="Nom"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
             />
-            <input type="email" name="email" id="email" placeholder="Email" />
             <textarea
               name="description"
               id="description"
@@ -70,14 +73,16 @@
       <!--ICI C'EST LE HEADER-->
 
       <header class="header">
-        <div class="header-low">
-          <i class="fa-solid fa-bars"></i>
+        <div class="burger-icon"><i class="fa-solid fa-bars"></i></div>
+        <div class="header-logo">
           <a href="https://www.tripadvisor.com/">
             <img
               alt="Tripadvisor"
               src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
             />
           </a>
+        </div>
+        <div class="search-icon">
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
         <form-search>
@@ -146,15 +151,15 @@
         <!--ICI CE SONT LES IMAGES 1/2 -->
         <div class="images">
           <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/08/18/92/caption.jpg?w=700&h=-1&s=1"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/08/18/92/caption.jpg?w=1600&h=-1&s=1"
             alt=""
           />
           <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/ca/45/37/katsurahama-beach.jpg?w=500&h=300&s=1"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/39/02/78/photo0jpg.jpg?w=2000&h=-1&s=1"
             alt=""
           />
           <img
-            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/ec/cf/9b/photo1jpg.jpg?w=500&h=300&s=1"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/ec/cf/9b/photo1jpg.jpg?w=2000&h=-1&s=1"
             alt=""
           />
         </div>
@@ -168,7 +173,7 @@
         <p class="immanquables">Kochi : les immanquables</p>
 
         <!-- 1ER CAROUSEL -->
-        <div class="listing1">
+        <div class="listing">
           <div class="first-meet">
             <div>
               <p class="text-solid">Se divertir</p>
@@ -303,7 +308,7 @@
         <!-- 2EME CAROUSEL -->
 
         <div>
-          <div class="listing1">
+          <div class="listing">
             <div class="first-meet">
               <div>
                 <p class="text-solid">Se reposer</p>
@@ -427,7 +432,7 @@
         <!-- 3EME CAROUSEL -->
 
         <div>
-          <div class="listing1">
+          <div class="listing">
             <div class="first-meet">
               <div>
                 <p class="text-solid">Se restaurer</p>

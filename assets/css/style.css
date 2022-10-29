@@ -19,11 +19,11 @@ a {
   width: 200px;
 }
 
-.header-low .fa-bars {
+.header .burger-icon {
   display: none;
 }
 
-.header-low .fa-magnifying-glass {
+.header .search-icon {
   display: none;
 }
 
@@ -284,6 +284,8 @@ input[type="submit"]:focus {
   border-radius: 10px;
 }
 
+/* ----- IMAGE DE PREZ DU LIEU TRIP ----- */
+
 .images {
   max-width: fit-content;
   height: 400px;
@@ -325,6 +327,8 @@ input[type="submit"]:focus {
   cursor: pointer;
 }
 
+/* ----- TEXTE SOUS PREZ ----- */
+
 .category-info {
   display: flex;
   justify-content: space-between;
@@ -344,7 +348,9 @@ input[type="submit"]:focus {
   margin-bottom: 35px;
 }
 
-.listing1 {
+/* ----- TEXTE ET CAROUSEL ----- */
+
+.listing {
   display: flex;
   gap: 20px;
   margin-top: 25px;
@@ -512,6 +518,8 @@ input[type="submit"]:focus {
   color: rgb(45, 45, 45);
 }
 
+/* ----- FOOTER WEBSITE ----- */
+
 footer {
   bottom: 0;
   background-color: rgb(235, 217, 192);
@@ -542,6 +550,8 @@ footer img {
   height: 30px;
 }
 
+/* ----- RESPONSIVE WEBSITE ----- */
+
 @media (max-width: 1024px) {
   .container {
     padding-left: 5px;
@@ -552,12 +562,12 @@ footer img {
     margin-bottom: 10px;
   }
 
-  .fa-bars {
+  .burger-icon {
     display: none;
   }
 
-  .header-low .fa-magnifying-glass {
-    display: none;
+  .fa-magnifying-glass {
+    display: flex;
   }
 
   .header ul {
@@ -604,17 +614,38 @@ footer img {
     display: none;
   }
 
-  form,
+  form-search,
   input {
     display: none;
   }
 
-  .header-low .fa-bars {
+  .header .burger-icon {
+    display: flex;
+    padding: 1%;
+  }
+  .header .search-icon {
+    display: flex;
+    padding: 1%;
+  }
+
+  .header img {
     display: flex;
   }
 
-  .header-low .fa-magnifying-glass {
+  .images {
+    margin: 0;
     display: flex;
+
+    grid-gap: 2px;
+    margin-bottom: 70px;
+  }
+
+  .images img:nth-child(2) {
+    display: none;
+  }
+
+  .images img:nth-child(3) {
+    display: none;
   }
 
   .nav-middle {
@@ -625,13 +656,6 @@ footer img {
 
   .nav-middle .button i {
     display: none;
-  }
-
-  .header .header-low {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
   }
 
   .footer {

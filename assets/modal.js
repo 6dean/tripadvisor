@@ -1,25 +1,22 @@
 const tripAdivsor = document;
 
 // Document est un nom par convention car D.O.M.
+// querySelector permet d'appeler le premier élément qui correspond au même nom
 
 tripAdivsor.addEventListener("DOMContentLoaded", () => {
   const modal = tripAdivsor.querySelector(".modal");
-  const body = tripAdivsor.querySelector("body");
-  const header = tripAdivsor.querySelector("header");
 
   // MODAL DISPARAIT
   tripAdivsor.querySelector(".button-connect").addEventListener("click", () => {
     modal.classList.remove("hidden");
-    // body.classList.add("disable");
   });
 
   // MODAL DISPARAIT
   tripAdivsor.querySelector(".fa-xmark").addEventListener("click", () => {
     modal.classList.add("hidden");
-    // body.classList.remove("disable");
   });
 
-  tripAdivsor.getElementById("contactForm");
+  tripAdivsor.getElementById("formulaire");
   tripAdivsor.addEventListener("submit", async (event) => {
     event.preventDefault();
 
